@@ -29,6 +29,7 @@ Main =
     flatten null, Config
     for db in DataBoard.keys
       Conf[db] = boards: {}
+    Conf['filters'] = []
     Conf['selectedArchives'] = {}
     Conf['archives'] = Redirect.archives
     $.get Conf, (items) ->

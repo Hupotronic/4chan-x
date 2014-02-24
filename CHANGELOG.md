@@ -1,3 +1,8 @@
+- `Filter` changes:
+ - New filter settings interface.
+ - Multiple content can be filtered at once.
+ - Filter can now either apply partial or exact string matching, along with regular expressions.
+
 ### 3.20.10 - *2014-04-30*
 
 - Always more bug fixes.
